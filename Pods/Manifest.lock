@@ -1,0 +1,73 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ALRouter (0.0.1)
+  - CYLTabBarController (1.17.8)
+  - HKHttpManager (0.0.3):
+    - AFNetworking
+  - HomeModule (0.0.2):
+    - ALRouter
+    - HKHttpManager
+    - LazyScroll
+    - Masonry
+    - SDCycleScrollView
+  - LazyScroll (1.0.1):
+    - TMUtils (~> 1.0.1)
+  - Masonry (1.1.0)
+  - ModleA (0.0.4):
+    - ALRouter
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - TMUtils (1.0.1)
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - HomeModule
+  - ModleA
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ALRouter
+    - CYLTabBarController
+    - HKHttpManager
+    - HomeModule
+    - LazyScroll
+    - Masonry
+    - ModleA
+    - SDCycleScrollView
+    - SDWebImage
+    - TMUtils
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ALRouter: 59d3a082c7fd978924c3199060dd528a65ffebbd
+  CYLTabBarController: c1377ee2d0ccb6c7ec642806dc04f883f7c2851e
+  HKHttpManager: b8b4823360f9073e3ebd0ff051f275fe7e9273f6
+  HomeModule: 02bb4ec1cd04b16c6aead278d2c06f988a3e196c
+  LazyScroll: 23f4550711452ad4306a30fc75106a7a5556a882
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ModleA: 724dfc852ab0b7d00d2475d7e7b72e83ac2028ed
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  TMUtils: 8af8e4695b6e4086d0545ecd7cd025556515ab42
+
+PODFILE CHECKSUM: 5f7345cee75b55a2550c42c3d2b785db853691b1
+
+COCOAPODS: 1.5.2

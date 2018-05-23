@@ -1,0 +1,6 @@
+platform:ios,'8.0'
+target 'MainProject' do
+pod 'ModleA'
+pod 'CYLTabBarController'
+pod 'HomeModule'
+end
